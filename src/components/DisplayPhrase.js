@@ -6,15 +6,10 @@ function DisplayPhrase({ phrase }) {
   
   return (
     <div className="DisplayPhrase">
-      <img
-        src={phrase.image}
-        alt= ''
-      />
+      <img src={phrase.image} alt= '' />
       <ul>
-        <li>Phrase: {phrase.quote}</li>
-        <li>Phrase: {phrase.character}</li>
-        <li> je sais pas: {phrase.characterDirection}</li> 
-      </ul>
+        <h3>Phrase: {phrase.quote}</h3>
+        <p>Phrase: {phrase.character}</p>
     </div>
   );
 };
